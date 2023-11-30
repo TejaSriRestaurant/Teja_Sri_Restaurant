@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Add Bootstrap CSS link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>ratings</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="utensils"></i>TEJA <span>SRI</span></a>
+
+        <nav class="navbar">
+            <a href="./index.html">Home</a>
+            <a href="./index.html#speciality">speciality</a>
+            <a href="./index.html#popular">menu</a>
+            <a href="./index.html#review">review</a>
+        </nav>
+
+        <div class="icon">
+            <i class="fas fa-bars" id="bar"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+
+        </div>
+
+
+    </header>
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+<div class="containers mt-4 mw-100" style="padding: 100px;">
+  <div class="form-group">
+    <label for="typeSelect" style="size: 20px;">Select a State:</label>
+    <select id="typeSelect" class="form-control" style="height: 50px;">
+      <!-- Add your list of states here -->
+      <option value="others">others</option>
+      <option value="Biriyani">Biriyani</option>
+      <option value="Starters">Starters</option>
+      <option value="Fried-Rice">Fried-Rice</option>
+      <option value="Meals & Curries">Meals & Curries</option>
+      <!-- Add more options as needed -->
+    </select>
+    
+    <div class="form-group">
+        <label for="FoodSelect" style="size: 20px; margin-top: 10px;">Select a food:</label>
+        <select id="FoodSelect" class="form-control" style="height: 50px;"></select>
+    </div>
+    <div id="ratingDisplay" class="mt-3"></div>
+  </div>
+  <div id="userDisplay" class="mt-3"></div>
+  </div>
+</div>
+<section class="footer">
+    <div class="container">
+        <div class="box">
+            <h3>Locations </h3>
+            <a href="#">Kaza</a>
+            <a href="#">Narasapuram</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="./index.html">home</a>
+            <a href="./index.html#speciality">speciality</a>
+            <a href="./index.html#popular">menu</a>
+            <a href="./index.html#review">review</a>
+        </div>
+        <div class="box">
+            <h3>contact info </h3>
+            <a href="#">+91 9948377779</a>
+            <a href="#">+91 9864777779</a>
+            <a href="#">kazabiryani@gmail.com</a>
+        </div>
+    </div>
+</section>
+<section class="footer2">
+    <div class="share">
+        <a href="https://www.facebook.com/" class="btn">Facebook</a>
+        <a href="https://youtu.be/EDtD9WEA5kE?si=NqxSsbO260Mg_kOe" class="btn">Youtube</a>
+        <a href="https://www.instagram.com/" class="btn">Instagram</a>
+    </div>
+    <hi class="credit" id="credit">
+        Created By <span> By k lokesh redday and k krishna kasyap </span> | All Rights Reserved!
+    </hi>
+</section>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="Viewscript.js"></script>
+</body>
+</html>
